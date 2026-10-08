@@ -1,0 +1,25 @@
+# Composer vendor folder
+/vendor/
+
+# Config with passwords
+/config/db_credentials.php
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data
+/config/data/
+
+# Don't upload setup/rebuild scripts
+setup.php
+rebuild_*.php
+fix_database.php
+debug_*.php
